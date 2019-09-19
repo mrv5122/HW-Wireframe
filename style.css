@@ -3,8 +3,25 @@ body {
     background: #777;
     width: 960px;
     font-size: 18px;
+    margin: 0px;
+    text-align: center;
+    font-family: arial, Arial, Helvetica, sans-serif;
 }
-head, nav, section, aside, footer {
+head {
+    background: #ebebeb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+nav {
+    background: #ebebeb;
+}
+section {
+    background: #ebebeb;
+}
+aside {
+    background: #ebebeb;
+}
+footer {
     background: #ebebeb;
 }
 article {
@@ -14,6 +31,8 @@ article {
 h1, p {
     color: #777;
     background: #ebebeb;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 section {
     width: 495px
