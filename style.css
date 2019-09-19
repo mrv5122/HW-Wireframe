@@ -14,6 +14,7 @@ body {
     font-size: 18px;
     font-family: arial, Arial, Helvetica, sans-serif;
 }
+
 article {
     color: #ebebeb;
     background: #777;
@@ -28,12 +29,15 @@ h1, p {
     color: #777;
     background: #ebebeb;
     border: 1px solid blanchedalmond;
-}
+}   
 #rightbox {
-    color: red;
     width: 50%;
     float: right;
+    border: 1px solid springgreen;
+    display: block;
+    clear: left;
 }
 #foot {
     clear: both;
+    padding: 20px;
 }
