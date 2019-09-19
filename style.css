@@ -23,17 +23,15 @@ article {
     float: left;
     width: 50%;
     padding: 1px;
-    border: 1px solid blanchedalmond;
 }
 h1, p {
     color: #777;
     background: #ebebeb;
-    border: 1px solid blanchedalmond;
+    
 }   
 #rightbox {
     width: 50%;
     float: right;
-    border: 1px solid springgreen;
     display: block;
     clear: left;
 }
