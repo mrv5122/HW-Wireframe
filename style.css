@@ -4,7 +4,7 @@
     box-sizing: border-box; 
     overflow: auto;
 }
-head, nav, aside, section, footer {
+h1, nav, aside, section, footer {
     background: #ebebeb;
 }
 body {
@@ -24,13 +24,14 @@ article {
     width: 50%;
     padding: 1px;
 }
-h1, p {
+h2, p {
     color: #777;
     background: #ebebeb;
     
 }   
 #rightbox {
     width: 50%;
+    height: 300px;
     float: right;
     display: block;
     clear: left;
