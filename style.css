@@ -2,7 +2,6 @@
     margin: 0px;
     text-align: center;
     box-sizing: border-box; 
-    overflow: auto;
 }
 h1, nav, aside, section, footer {
     background: #ebebeb;
@@ -28,15 +27,17 @@ h2, p {
     color: #777;
     background: #ebebeb;
     
-}   
+} 
+
+
 #rightbox {
     width: 50%;
-    height: 300px;
     float: right;
-    display: block;
     clear: left;
+}
+.clearfix {
+    overflow: auto;
 }
 #foot {
     clear: both;
-    padding: 20px;
 }
